@@ -1,0 +1,103 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background-color: rgb(145, 145, 253);
+}
+body, html {
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	color: rgb(0, 0, 2);
+	overflow-x: hidden;
+}
+
+
+
+header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+	box-shadow: 1px 1px 10px 1px #fff;
+	border-bottom: 15px ridge #fff;
+	margin-bottom: 45px;
+}
+header ul {
+	display: flex;
+}
+header ul li {
+	padding: 5px;
+}
+header ul li a {
+	transition: 300ms;
+	color: rgb(7, 0, 0);
+	font-size: 40px;
+}
+header ul li a:hover {
+	color: rgb(52, 246, 8);
+	text-decoration: underline;
+}
+header h3 {
+	transition: 300ms;
+	color: rgb(7, 0, 0);
+	font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+img {
+	width: 100vw;
+	height: 70vh;
+}
+h1 {
+	font-family: 'Poppins', sans-serif;
+	color: rgb(0, 0, 2);
+	margin-top: 20px;
+	text-align: center;
+}
+main {
+	width: 100vw;
+	padding: 40px;
+}
+#descricao {
+	font-size: 24px;
+	width: 100%;
+}
+ol li {
+	font-size: 24px;
+	color: rgb(0, 0, 2);
+}
+ol p {
+	font-size: 20px;
+	color: rgb(0, 0, 2);
+}
+a {
+	text-decoration: none;
+	color: rgb(0, 0, 2);
+
+}
+a:hover {
+	transition: 0.5s;
+	font-size: 30px;
+	color: rgb(34, 85, 238);
+}
+ul li {
+	font-size: 24px;
+	color: rgb(24, 24, 69);
+}
+ul p {
+	font-size: 20px;
+	color: rgb(24, 24, 69);
+}
+ul a {
+	transition: 0.5s;
+	font-size: 30px;
+	color: rgb(34, 85, 238);
+}
